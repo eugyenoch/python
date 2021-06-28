@@ -25,5 +25,5 @@ age=input()
 print('thank you, your entered age is,' age)
 print()
 
-print('Your name is,' name, 'Your location is,' location, 'and your age is,' str(age).
+print('Your name is,' name, 'Your location is,' location, 'and your age is,' str(age),
 'You will be' str(int(age)+1, 'in one year have fun!!!')
