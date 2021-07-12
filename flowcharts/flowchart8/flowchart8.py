@@ -3,6 +3,6 @@
 #Many thanks to Al Swegart
 
 spam = 0
-while spam < 5:
+if spam < 5:
     print('Hello, world.')
     spam = spam + 1
