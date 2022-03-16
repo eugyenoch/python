@@ -1,0 +1,33 @@
+seed()	Initialize the random number generator
+getstate()	Returns the current internal state of the random number generator
+setstate()	Restores the internal state of the random number generator
+getrandbits()	Returns a number representing the random bits
+randrange()	Returns a random number between the given range, ==> random.randrange(start, stop, step), the stop value is not included
+randint()	Returns a random number between the given range
+choice()	Returns a random element from the given sequence, ==> random.choice(sequence)
+choices()	Returns a list with a random selection from the given sequence, ==> random.choices(sequence, k=?)
+shuffle()	Takes a sequence and returns the sequence in a random order, ==> random.shuffle(sequence)
+sample()	Returns a given sample of a sequence, ==> random.sample(sequence, k=?) with "sequence" being a list,set or range and 
+k is size of returned list
+random()	Returns a random float number between 0 and 1
+uniform()	Returns a random float number between two given parameters
+triangular() The triangular() method returns a random floating number between the two specified numbers (both included), 
+but you can also specify a third parameter, the mode parameter.random.triangular(low, high, mode)
+
+
+PYTHON MATHS
+math.cos()	Returns the cosine of a number
+math.cosh()	Returns the hyperbolic cosine of a number
+math.degrees()	Converts an angle from radians to degrees
+math.factorial()	Returns the factorial of a number
+math.floor()	Rounds a number down to the nearest integer
+math.isclose()	Checks whether two values are close to each other, or not
+math.isfinite()	Checks whether a number is finite or not
+math.isinf()	Checks whether a number is infinite or not
+math.isnan()	Checks whether a value is NaN (not a number) or not
+math.log2()	Returns the base-2 logarithm of x
+math.log10()	Returns the base-10 logarithm of x
+math.radians()	Converts a degree value into radians
+math.sin()	Returns the sine of a number
+math.tan()	Returns the tangent of a number
+math.prod() Returns the product of a sequence, eg ==> math.prod(sequence)
